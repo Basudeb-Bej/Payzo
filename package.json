@@ -1,0 +1,13 @@
+{
+  "name": "payzo",
+  "private": true,
+  "scripts": {
+    "setup": "npm install && npm --prefix frontend install",
+    "start": "concurrently -n API,WEB -c blue,green \"npm:start:backend\" \"npm:start:frontend\"",
+    "start:backend": "cd backend && .venv\\Scripts\\python.exe -m uvicorn app.main:app --reload --port 8000",
+    "start:frontend": "npm --prefix frontend run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
