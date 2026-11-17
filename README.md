@@ -45,7 +45,7 @@ The application brings common wallet workflows together:
 
 - Create an account and securely sign in.
 - Manage a wallet and view its transaction history.
-- Send money to another Payzo wallet using a Wallet ID or email.
+- Send money to another Payzo wallet using a Wallet ID or phone number.
 - Receive payments and share wallet details through a QR code.
 - Manage linked bank details and explore deposit and withdrawal flows.
 - Protect sensitive actions with additional authentication controls.
@@ -78,7 +78,7 @@ The application brings common wallet workflows together:
 | Authentication | Registration, login, session handling, rate limiting and account lockout |
 | Account security | Optional authenticator-app TOTP 2FA and transaction PIN with lockout |
 | Wallet | Wallet balance and ledger-based transaction records |
-| Transfers | Wallet-to-wallet payments using Wallet ID, email or QR |
+| Transfers | Wallet-to-wallet payments using Wallet ID, phone number or QR |
 | QR payments | QR code generation and camera-based scanning (HTTPS and camera permission required) |
 | Bank details | Linked bank detail management with encryption and masked responses |
 | Money movement | Sandbox add-money, bank verification and withdrawal flows |
